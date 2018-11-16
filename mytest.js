@@ -4,7 +4,7 @@ function forLoop(){
     if (i == 1) {
     someArray = ["I am ${i} strange loop."]
     } else {
-      someArray += ["I am ${i} strange loops."]
+      someArray += ["I am " + i + "strange loops."]
     }
     console.log(someArray)
   }
