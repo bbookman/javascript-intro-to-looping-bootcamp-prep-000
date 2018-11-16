@@ -1,10 +1,9 @@
-function forLoop(){
-  var someArray = []
+function forLoop(array){
   for (var i = 0; i <= 25; i++){
     if (i == 1) {
-    someArray = ["I am " + i + " strange loop.\n"]
+      array = ["I am " + i + " strange loop.\n"]
     } else {
-      someArray += ["I am " + i + " strange loops.\n"]
+      array += ["I am " + i + " strange loops.\n"]
     }
   }
 }
