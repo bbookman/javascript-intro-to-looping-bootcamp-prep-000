@@ -6,6 +6,5 @@ function forLoop(){
     } else {
       someArray += ["I am " + i + " strange loops.\n"]
     }
-    console.log(someArray)
   }
 }
